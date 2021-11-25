@@ -1,0 +1,144 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp",
+  "buildDirectory": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/prefab/arm64-v8a/prefab",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003d/home/amirhosein/Android/Sdk/ndk/21.3.6528147",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003d/home/amirhosein/Android/Sdk/ndk/21.3.6528147",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/amirhosein/AndroidStudioProjects/perfectShow/app/build/intermediates/cmake/release/obj/arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DOpenCV_DIR\u003d/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenMP.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake","/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake","/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake","/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake","/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake","/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake","/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a","name":"venus","sourceDirectory":"/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp","targets":[{"artifacts":["/home/amirhosein/AndroidStudioProjects/perfectShow/app/build/intermediates/cmake/release/obj/arm64-v8a/libvenus.so"],"buildDirectory":"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -fopenmp=libomp -Wall -Wextra -O3 -fopenmp -static-openmp -O2 -DNDEBUG  -fPIC   -std=gnu++11","defines":["USE_INPAINTING=0","venus_EXPORTS"],"includePath":[{"isSystem":true,"path":"/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include"},{"path":"/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp"}],"isGenerated":false,"language":"CXX","sources":["stasm/MOD_1/facedet.cpp","stasm/MOD_1/initasm.cpp","stasm/asm.cpp","stasm/classicdesc.cpp","stasm/convshape.cpp","stasm/err.cpp","stasm/eyedet.cpp","stasm/eyedist.cpp","stasm/faceroi.cpp","stasm/hat.cpp","stasm/hatdesc.cpp","stasm/landmarks.cpp","stasm/misc.cpp","stasm/pinstart.cpp","stasm/print.cpp","stasm/shape17.cpp","stasm/shapehacks.cpp","stasm/shapemod.cpp","stasm/startshape.cpp","stasm/stasm.cpp","stasm/stasm_lib.cpp","venus/Beauty.cpp","venus/Effect.cpp","venus/Feature.cpp","venus/ImageWarp.cpp","venus/Makeup.cpp","venus/Region.cpp","venus/blend.cpp","venus/blur.cpp","venus/colorspace.cpp","venus/inpaint.cpp","venus/opencv_utility.cpp","platform/android/Effect.cpp","platform/android/Feature.cpp","platform/android/Makeup.cpp","platform/android/jni_bridge.cpp"]}],"fullName":"libvenus.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_gapi.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_video.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a -lc++_shared -llog -ljnigraphics /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libade.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg-turbo.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a -landroid -llog -lmediandk /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libquirc.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a -lc -lz /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libittnotify.a -ldl -lm /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a -llog -latomic -lm","linkerLanguage":"CXX","name":"venus","sourceDirectory":"/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp","sysroot":"/home/amirhosein/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

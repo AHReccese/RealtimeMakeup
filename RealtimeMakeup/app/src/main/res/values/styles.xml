@@ -1,0 +1,163 @@
+<resources>
+
+
+	<style name="Widget.RadioButton.Horizontal">
+		<item name="android:layout_weight">1.0</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:button">@null</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/selector_radio_button</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:textSize">@dimen/text_size_small</item>
+	</style>
+	<style name="Widget" parent="@android:style/Widget">
+		<item name="android:textAppearance">?android:attr/textAppearance</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="Widget.ColorPicker">
+		<item name="layout">@layout/color_picker_dialog</item>
+		<item name="mode">circle_hs_v</item>
+		<item name="color">#FFE1112B</item>
+		<item name="enableAlpha">false</item>
+	</style>
+
+	<style name="Widget.TextView">
+		<item name="android:background">@color/primary_background</item>
+		<item name="android:textColor">@color/primary_text</item>
+		<item name="android:textSize">@dimen/text_size_normal</item>
+	</style>
+	
+	<style name="Widget.Button">
+		<item name="android:maxLines">1</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:shadowColor">@android:color/black</item>
+		<item name="android:shadowDx">0.0</item>
+		<item name="android:shadowDy">1.0</item>
+		<item name="android:shadowRadius">1.0</item>
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_margin">0dp</item>
+		<item name="android:paddingLeft">12sp</item>
+		<item name="android:paddingRight">12sp</item>
+		<item name="android:paddingTop">14sp</item>
+		<item name="android:paddingBottom">14sp</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+	</style>
+	
+	<style name="Widget.CompoundButton">
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+		<item name="android:textAppearance">?android:attr/textAppearance</item>
+		<item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+	</style>
+
+	<style name="Widget.CheckBox" parent="@style/Widget.CompoundButton">
+		<item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+	</style>
+
+	<style name="Widget.RadioButton" parent="@style/Widget.CompoundButton">
+		<item name="android:button">?android:attr/listChoiceIndicatorSingle</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:paddingTop">0dp</item>
+		<item name="android:paddingBottom">0dp</item>
+<!--
+		<item name="android:onClick">onRadioButtonClicked</item>
+-->
+	</style>
+
+	<style name="Widget.ImageView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:scaleType">fitCenter</item>
+		<item name="android:duplicateParentState">true</item>
+	</style>
+
+	<style name="Widget.Button.MainActivity">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">64dp</item>
+		<item name="android:layout_weight">0.5</item>
+	</style>
+	
+	<style name="Widget.ImageWithTextBelowIt">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_weight">1.0</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:textColor">@color/text_gray</item>
+<!--
+		<item name="android:text">This text is below the image</item>
+		<item name="android:drawableTop">@drawable/example</item>
+-->
+	</style>
+	
+	<style name="Widget.NailBar">
+		<item name="min">-100.0</item>
+		<item name="max">+100.0</item>
+		<item name="steps">200</item>
+		<item name="lowSideColor">@color/NailBar_lowSideColor</item>
+		<item name="highSideColor">@color/NailBar_highSideColor</item>
+		<item name="circleColor">@color/NailBar_circleColor</item>
+		<item name="nailColor">@color/NailBar_nailColor</item>
+		<item name="barThickness">2dp</item>
+		<item name="circleRadius">5dp</item>
+		<item name="nailRadius">8dp</item>
+	</style>
+	
+	<style name="Widget.Spinner" parent="@android:style/Widget.Spinner">
+		<item name="android:layout_width">wrap_content</item>
+	   	<item name="android:layout_height">wrap_content</item>
+			<item name="android:spinnerMode">dropdown</item>
+			<item name="android:textSize">@dimen/text_size_normal</item>
+			<item name="android:dropDownVerticalOffset">0dp</item>
+			<item name="android:paddingLeft">10dp</item>
+			<item name="android:paddingRight">10dp</item>
+	</style>
+
+	<style name="Widget.HorizontalProgressWheelView">
+		<item name="progressLineColor">@color/HorizontalProgressWheelView_progressLine</item>
+		<item name="middleLineColor">@color/HorizontalProgressWheelView_middleLine</item>
+		<item name="lineWidth">@dimen/HorizontalProgressWheelView_lineWidth</item>
+		<item name="lineHeight">@dimen/HorizontalProgressWheelView_lineHeight</item>
+		<item name="lineMargin">@dimen/HorizontalProgressWheelView_lineMargin</item>
+	</style>
+	
+	<style name="TitleBar">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#D9F3FF</item>
+		<item name="android:textSize">@dimen/text_size_big</item>
+	</style>
+	
+
+	<style name="ImageCropActivity_transformationState">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_weight">1.0</item>
+		<item name="android:background">@color/crop_background</item>
+		<item name="android:clickable">true</item>
+	</style>
+	
+	<style name="CropActivity_WrapperRotateButton">
+		<item name="android:layout_width">@dimen/CropActivity_wrapper_rotate_button_size</item>
+		<item name="android:layout_height">@dimen/CropActivity_wrapper_rotate_button_size</item>
+		<item name="android:background">@color/crop_background</item>
+		<item name="android:clickable">true</item>
+	</style>
+	
+	<style name="Widget.AspectRatioTextView" parent="android:Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:duplicateParentState">true</item>	
+		<item name="android:textColor">@color/crop_foreground</item>
+	</style>
+</resources>

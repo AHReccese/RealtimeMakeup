@@ -1,0 +1,3 @@
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/venus.dir

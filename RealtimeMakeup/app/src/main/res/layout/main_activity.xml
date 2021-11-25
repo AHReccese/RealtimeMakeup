@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.wonderful.ishow.app.MainActivity"
+	>
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="4dp"
+		>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:weightSum="1.0"
+			>
+			
+			<Button
+				style="@style/Widget.Button.MainActivity"
+				android:id="@+id/crop"
+				android:text="@string/crop"
+				/>
+			
+			<Button
+				style="@style/Widget.Button.MainActivity"
+				android:id="@+id/collage"
+				android:text="@string/collage"
+				android:visibility="invisible"
+				/>
+
+		</TableRow>
+<!--
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:weightSum="1.0"
+			>
+
+			<Button
+				style="@style/Widget.Button.MainActivity"
+				android:id="@+id/camera"
+				android:text="@string/camera"
+				/>
+
+			<Button
+				style="@style/Widget.Button.MainActivity"
+				android:id="@+id/color"
+				android:text="@string/color"
+				/>
+		</TableRow>
+-->
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			>
+
+		<Button
+			style="@style/Widget.Button.MainActivity"
+			android:id="@+id/makeup"
+			android:text="@string/makeup"
+			/>
+			
+		<Button
+			style="@style/Widget.Button.MainActivity"
+			android:id="@+id/effect"
+			android:text="@string/effect"
+			android:visibility="invisible"
+			/>
+		</TableRow>
+		
+	</TableLayout>
+
+</LinearLayout>

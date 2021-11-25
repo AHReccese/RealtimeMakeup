@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.wonderful.ishow"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        vectorDrawables.useSupportLibrary = true
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11 -frtti -fexceptions"
+                arguments "-DOpenCV_DIR=" + opencv_sdk + "/sdk/native/jni" // , "-DANDROID_ARM_NEON=TRUE"
+            }
+        }
+        
+        ndk {
+            moduleName = 'venus'
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile "src/main/AndroidManifest.xml"
+            java.srcDirs    = [ "src/main/java/" ]
+            jni.srcDirs     = [ "src/main/cpp/"  ]
+            jniLibs.srcDirs = [ "src/main/lib/"  ]
+            res.srcDirs     = [ "src/main/res/"  ]
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
+    ndkVersion '21.3.6528147'
+
+}
+
+dependencies {
+    implementation project(':opencv')
+
+    implementation "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
+    implementation "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
+
+    implementation "com.github.yalantis:ucrop:2.2.3"  // lightweight general solution
+//    implementation 'com.github.yalantis:ucrop:2.2.3-native' // get power of the native code to preserve image quality
+
+    ///////////////
+    //api 'com.otaliastudios:cameraview:2.6.4'
+
+}

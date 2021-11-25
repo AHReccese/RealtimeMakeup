@@ -1,0 +1,258 @@
+{
+  "stringTable": {
+    "0": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/amirhosein/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/amirhosein/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DUSE_INPAINTING=0 -Dvenus_EXPORTS -isystem /home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include -I/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -fopenmp=libomp -Wall -Wextra -O3 -fopenmp -static-openmp -Oz -DNDEBUG -fPIC -std=gnu++11"
+  },
+  "buildFiles": [
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-armeabi-v7a/OpenCVModules.cmake",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/CMakeLists.txt",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "venus-Release-armeabi-v7a": {
+      "buildCommand": "/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/armeabi-v7a\" venus",
+      "buildType": "release",
+      "toolchain": "3567835141",
+      "abi": "armeabi-v7a",
+      "artifactName": "venus",
+      "files": [
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/MOD_1/initasm.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/asm.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/classicdesc.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/convshape.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/err.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/eyedet.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/eyedist.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/faceroi.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/hat.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/hatdesc.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/landmarks.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/misc.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/pinstart.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/print.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/shape17.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/shapehacks.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/shapemod.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/startshape.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/stasm.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/stasm_lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/Beauty.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/Effect.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/Feature.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/ImageWarp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/Makeup.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/Region.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/blend.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/blur.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/colorspace.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/inpaint.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/opencv_utility.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Feature.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Makeup.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/jni_bridge.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/build/intermediates/cmake/release/obj/armeabi-v7a/libvenus.so",
+      "runtimeFiles": [
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_calib3d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_core.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_dnn.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_features2d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_flann.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_gapi.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_highgui.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_imgcodecs.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_imgproc.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_ml.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_objdetect.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_photo.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_stitching.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_video.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_videoio.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibprotobuf.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libade.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_imgcodecs.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjpeg-turbo.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibwebp.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibpng.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibtiff.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjasper.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libIlmImf.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libquirc.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_calib3d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_features2d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_flann.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_imgproc.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/armeabi-v7a/libopencv_core.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtbb.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libcpufeatures.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libittnotify.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtegra_hal.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "3567835141": {
+      "cppCompilerExecutable": "/home/amirhosein/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

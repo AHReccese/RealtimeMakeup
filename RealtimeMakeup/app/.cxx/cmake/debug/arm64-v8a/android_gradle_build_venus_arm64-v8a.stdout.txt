@@ -1,0 +1,208 @@
+ninja: Entering directory `/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/debug/arm64-v8a'
+[1/37] Building CXX object CMakeFiles/venus.dir/stasm/MOD_1/facedet.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp:148:43: warning: unused parameter 'detpars' [-Wunused-parameter]
+    const std::vector<DetectorParameter>& detpars, // in
+                                          ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp:149:23: warning: unused parameter 'img' [-Wunused-parameter]
+    const Image&      img,     // in
+                      ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/MOD_1/facedet.cpp:150:23: warning: unused parameter 'path' [-Wunused-parameter]
+    const char*       path)    // in
+                      ^
+3 warnings generated.
+[2/37] Building CXX object CMakeFiles/venus.dir/stasm/eyedist.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[3/37] Building CXX object CMakeFiles/venus.dir/stasm/err.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[4/37] Building CXX object CMakeFiles/venus.dir/stasm/convshape.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[5/37] Building CXX object CMakeFiles/venus.dir/stasm/asm.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/asm.cpp:12:18: warning: unused parameter 'shape' [-Wunused-parameter]
+    const Shape& shape,  // in: current search shape
+                 ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/asm.cpp:13:18: warning: unused parameter 'pyrimg' [-Wunused-parameter]
+    const Image& pyrimg, // in: image scaled to this pyramid level
+                 ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/asm.cpp:14:18: warning: unused parameter 'ilev' [-Wunused-parameter]
+    int          ilev,   // in: pyramid level (0 is full size)
+                 ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/asm.cpp:15:18: warning: unused parameter 'iter' [-Wunused-parameter]
+    int          iter,   // in: model iteration (-1 if start shape)
+                 ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/asm.cpp:16:18: warning: unused parameter 'suffix' [-Wunused-parameter]
+    const char*  suffix) // in
+                 ^
+5 warnings generated.
+[6/37] Building CXX object CMakeFiles/venus.dir/stasm/eyedet.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[7/37] Building CXX object CMakeFiles/venus.dir/stasm/MOD_1/initasm.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[8/37] Building CXX object CMakeFiles/venus.dir/stasm/faceroi.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[9/37] Building CXX object CMakeFiles/venus.dir/stasm/hat.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[10/37] Building CXX object CMakeFiles/venus.dir/stasm/classicdesc.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[11/37] Building CXX object CMakeFiles/venus.dir/stasm/landmarks.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[12/37] Building CXX object CMakeFiles/venus.dir/stasm/print.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[13/37] Building CXX object CMakeFiles/venus.dir/stasm/hatdesc.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[14/37] Building CXX object CMakeFiles/venus.dir/stasm/shape17.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[15/37] Building CXX object CMakeFiles/venus.dir/stasm/pinstart.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[16/37] Building CXX object CMakeFiles/venus.dir/stasm/shapehacks.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[17/37] Building CXX object CMakeFiles/venus.dir/stasm/shapemod.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[18/37] Building CXX object CMakeFiles/venus.dir/stasm/misc.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/misc.cpp:867:12: warning: unused parameter 'yaw' [-Wunused-parameter]
+    double yaw,     // in: yaw in degrees, negative if left facing
+           ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/misc.cpp:868:12: warning: unused parameter 'nmods' [-Wunused-parameter]
+    int    nmods)   // in
+           ^
+2 warnings generated.
+[19/37] Building CXX object CMakeFiles/venus.dir/stasm/startshape.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/startshape.cpp:411:13: warning: unused parameter 'face_roi' [-Wunused-parameter]
+    Image&  face_roi,           // out: ROI around face, possibly rotated upright
+            ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/stasm/startshape.cpp:412:24: warning: unused parameter 'detpar_roi' [-Wunused-parameter]
+    DetectorParameter& detpar_roi)         // out: detpar wrt to face_roi
+                       ^
+2 warnings generated.
+[20/37] Building CXX object CMakeFiles/venus.dir/stasm/stasm.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[21/37] Building CXX object CMakeFiles/venus.dir/venus/colorspace.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[22/37] Building CXX object CMakeFiles/venus.dir/venus/Beauty.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[23/37] Building CXX object CMakeFiles/venus.dir/venus/Effect.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[24/37] Building CXX object CMakeFiles/venus.dir/venus/blur.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[25/37] Building CXX object CMakeFiles/venus.dir/venus/blend.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[26/37] Building CXX object CMakeFiles/venus.dir/venus/ImageWarp.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/venus/ImageWarp.cpp:245:49: warning: unused parameter 'alpha' [-Wunused-parameter]
+void ImageWarp_Similarity::calculateDelta(float alpha)
+                                                ^
+1 warning generated.
+[27/37] Building CXX object CMakeFiles/venus.dir/venus/Region.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[28/37] Building CXX object CMakeFiles/venus.dir/venus/Feature.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[29/37] Building CXX object CMakeFiles/venus.dir/venus/Makeup.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[30/37] Building CXX object CMakeFiles/venus.dir/stasm/stasm_lib.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[31/37] Building CXX object CMakeFiles/venus.dir/venus/inpaint.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[32/37] Building CXX object CMakeFiles/venus.dir/venus/opencv_utility.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[33/37] Building CXX object CMakeFiles/venus.dir/platform/android/Effect.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:13:23: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:13:55: warning: unused parameter '_pivot' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:13:70: warning: unused parameter 'whirl' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                            ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:13:84: warning: unused parameter 'pinch' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                                          ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:13:98: warning: unused parameter 'radius' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _pivot, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                                                        ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:27:23: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:27:54: warning: unused parameter 'whirl' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                                                            ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:27:68: warning: unused parameter 'pinch' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                          ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:27:82: warning: unused parameter 'radius' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jfloat whirl, jfloat pinch, jfloat radius)
+                                                                                        ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:40:23: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:40:55: warning: unused parameter '_point0' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:40:72: warning: unused parameter '_point1' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                                              ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:40:88: warning: unused parameter 'strength' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                                                              ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:40:103: warning: unused parameter 'type' [-Wunused-parameter]
+        (JNIEnv* env, jclass clazz, jobject _bitmap, jobject _point0, jobject _point1, jfloat strength, jint type)
+                                                                                                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:55:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+        (JNIEnv * env, jclass clazz, jobject _result, jfloat t, jobject _p0, jobject _p1, jobject _p2, jobject _p3)
+                              ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:68:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _bitmap, jint color, jfloat amount)
+                       ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:108:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _src_bitmap, jobject _dst_bitmap)
+                       ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                       ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:25: warning: unused parameter '_mask' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                      ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:53: warning: unused parameter '_color' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                  ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:66: warning: unused parameter '_select_criterion' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                               ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:92: warning: unused parameter 'threshold' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                                                         ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:112: warning: unused parameter 'antialias' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                                                                             ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Effect.cpp:139:132: warning: unused parameter 'select_transparent' [-Wunused-parameter]
+                jclass clazz, jobject _mask, jobject _image, jint _color, jint _select_criterion, jfloat threshold, jboolean antialias, jboolean select_transparent)
+                                                                                                                                                 ^
+24 warnings generated.
+[34/37] Building CXX object CMakeFiles/venus.dir/platform/android/jni_bridge.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+[35/37] Building CXX object CMakeFiles/venus.dir/platform/android/Feature.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Feature.cpp:12:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _image, jstring _image_name, jstring _classifier_dir)
+                       ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Feature.cpp:44:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobject _image, jstring _image_name, jstring _classifier_dir)
+                       ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Feature.cpp:81:10: warning: unused parameter 'clazz' [-Wunused-parameter]
+                jclass clazz, jobjectArray _points)
+                       ^
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Feature.cpp:5:20: warning: unused variable 'LOG_TAG' [-Wunused-variable]
+static const char* LOG_TAG = "Feature-JNI";
+                   ^
+4 warnings generated.
+[36/37] Building CXX object CMakeFiles/venus.dir/platform/android/Makeup.cpp.o
+clang++: warning: argument unused during compilation: '-static-openmp' [-Wunused-command-line-argument]
+/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/platform/android/Makeup.cpp:3:20: warning: unused variable 'LOG_TAG' [-Wunused-variable]
+static const char* LOG_TAG = "Makeup-JNI";
+                   ^
+1 warning generated.
+[37/37] Linking CXX shared library /home/amirhosein/AndroidStudioProjects/perfectShow/app/build/intermediates/cmake/debug/obj/arm64-v8a/libvenus.so

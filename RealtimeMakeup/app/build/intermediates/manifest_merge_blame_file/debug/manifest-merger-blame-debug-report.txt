@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wonderful.ishow"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:6:5-64
+11-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:9:5-81
+12-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:9:22-78
+13
+14    <application
+14-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:11:5-62:19
+15        android:name="com.wonderful.ishow.app.App"
+15-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:12:9-32
+16        android:allowBackup="false"
+16-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:13:9-36
+17        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+17-->[com.android.support:support-compat:28.0.0] /home/amirhosein/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:14:9-45
+20        android:label="@string/app_name"
+20-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:15:9-41
+21        android:theme="@style/Theme" >
+21-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:16:9-37
+22        <activity
+22-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:18:9-49:20
+23            android:name="com.wonderful.ishow.app.MainActivity"
+23-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:19:13-45
+24            android:exported="true"
+24-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:22:13-36
+25            android:label="@string/app_name"
+25-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:20:13-45
+26            android:screenOrientation="portrait" >
+26-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:21:13-49
+27            <intent-filter>
+27-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:24:13-27:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:25:17-69
+28-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:25:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:26:17-77
+30-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:26:27-74
+31            </intent-filter>
+32            <intent-filter>
+32-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:28:13-37:29
+33                <action android:name="android.intent.action.GET_CONTENT" />
+33-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:29:17-76
+33-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:29:25-73
+34
+35                <data android:mimeType="image/*" />
+35-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:30:17-52
+35-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:30:23-49
+36
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:31:17-76
+37-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:31:27-73
+38                <!--
+39                The OPENABLE category declares that the returned file is accessible from a content
+40                provider that supports OpenableColumns and ContentResolver.openFileDescriptor()
+41                -->
+42                <category android:name="android.intent.category.OPENABLE" />
+42-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:36:17-77
+42-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:36:27-74
+43            </intent-filter>
+44            <intent-filter android:autoVerify="true" >
+44-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:38:13-48:29
+44-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:38:28-53
+45                <action android:name="android.intent.action.VIEW" />
+45-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:39:17-69
+45-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:39:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:31:17-76
+47-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:31:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:41:17-78
+48-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:41:27-75
+49
+50                <data
+50-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:30:17-52
+51                    android:host="github.com"
+51-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:45:21-46
+52                    android:pathPrefix="/KAlO2/PerfectShow/"
+52-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:46:21-61
+53                    android:scheme="https" />
+53-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:44:21-43
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:51:3-55:20
+57            android:name="com.wonderful.ishow.app.MakeupActivity"
+57-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:52:13-47
+58            android:screenOrientation="portrait" >
+58-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:53:13-49
+59        </activity>
+60        <activity
+60-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:57:9-60:72
+61            android:name="com.yalantis.ucrop.UCropActivity"
+61-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:58:13-60
+62            android:screenOrientation="portrait"
+62-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:59:13-49
+63            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+63-->/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/AndroidManifest.xml:60:13-69
+64    </application>
+65
+66</manifest>

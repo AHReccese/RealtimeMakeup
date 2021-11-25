@@ -1,0 +1,60 @@
+{
+  "buildFiles": [
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/home/amirhosein/AndroidStudioProjects/perfectShow/app/src/main/cpp/CMakeLists.txt",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/amirhosein/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "venus-Release-arm64-v8a": {
+      "artifactName": "venus",
+      "buildCommand": "/home/amirhosein/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/amirhosein/AndroidStudioProjects/perfectShow/app/.cxx/cmake/release/arm64-v8a\" venus",
+      "abi": "arm64-v8a",
+      "output": "/home/amirhosein/AndroidStudioProjects/perfectShow/app/build/intermediates/cmake/release/obj/arm64-v8a/libvenus.so",
+      "runtimeFiles": [
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_gapi.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libade.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg-turbo.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libquirc.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libittnotify.a",
+        "/home/amirhosein/Android/opencv-4.4.0-android-sdk/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a"
+      ]
+    }
+  }
+}
